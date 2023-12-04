@@ -1,5 +1,4 @@
 public enum BookFormat {
-
     HARDCOVER,
     PAPERBACK,
     AUDIO_BOOK,
