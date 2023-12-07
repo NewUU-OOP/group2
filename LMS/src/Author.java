@@ -3,7 +3,11 @@ import java.util.List;
 public class Author {
     private String name;
     private String description;
-    private List<Book> bookList;
+
+    public Author(String name, String description) {
+        this.name = name;
+        this.description = description;
+    }
 
     public String getName() {
         return name;
