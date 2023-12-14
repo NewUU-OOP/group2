@@ -75,4 +75,17 @@ public abstract class Book {
     public void setAuthors(List<Author> authors) {
         this.authors = authors;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "ISBN='" + ISBN + '\'' +
+                ", title='" + title + '\'' +
+                ", subject='" + subject + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", language='" + language + '\'' +
+                ", numberOfPages=" + numberOfPages +
+                ", authors=" + authors +
+                '}';
+    }
 }

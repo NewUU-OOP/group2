@@ -111,7 +111,7 @@ public class BookItem extends Book {
 
     @Override
     public String toString() {
-        return "BookItem{" +
+        return super.toString()+"BookItem{" +
                 "barcode='" + barcode + '\'' +
                 ", isReferenceOnly=" + isReferenceOnly +
                 ", borrowed=" + borrowed +
